@@ -1,0 +1,27 @@
+{
+  "name": "playwright-test-framework",
+  "version": "1.0.0",
+  "description": "A test automation framework using Playwright for UI and API testing.",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:ui": "playwright test tests/flightBooking.spec.ts",
+    "test:api": "playwright test tests/apiTests.spec.ts",
+    "build": "tsc"
+  },
+  "keywords": [
+    "playwright",
+    "testing",
+    "automation",
+    "typescript"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "@playwright/test": "^1.0.0",
+    "typescript": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^14.0.0"
+  }
+}

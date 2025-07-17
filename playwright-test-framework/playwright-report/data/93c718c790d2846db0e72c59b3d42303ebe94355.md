@@ -1,0 +1,251 @@
+# Page snapshot
+
+```yaml
+- alert "Get exclusive deals, travel alerts & surprise offers — right when you need them!":
+  - heading "Get exclusive deals, travel alerts & surprise offers — right when you need them!" [level=2]
+  - paragraph: You can turn off notifications anytime from your browser settings.
+  - button "Don't Allow"
+  - button "Allow"
+- banner:
+  - link "Logo":
+    - /url: https://www.shohoz.com
+    - img "Logo"
+  - link "Bus":
+    - /url: https://www.shohoz.com/bus-tickets
+    - img
+    - paragraph: Bus
+  - link "Air":
+    - /url: /air-tickets
+    - img
+    - paragraph: Air
+  - link "Train":
+    - /url: https://train.shohoz.com/
+    - img
+    - paragraph: Train
+  - link "Launch":
+    - /url: https://www.shohoz.com/launch-tickets
+    - img
+    - paragraph: Launch
+  - link "Events":
+    - /url: https://www.shohoz.com/event-tickets
+    - img
+    - paragraph: Events
+  - link "Park BETA":
+    - /url: https://www.shohoz.com/park-tickets
+    - img
+    - paragraph: Park
+    - text: BETA
+  - link "16374":
+    - /url: tel:16374
+    - paragraph:
+      - img
+      - text: "16374"
+  - link "Login":
+    - /url: https://www.shohoz.com/login
+    - paragraph: Login
+- img "home-banner"
+- tabpanel:
+  - tablist:
+    - tab "One Way" [selected]
+    - tab "Round Way"
+    - tab "Multi City"
+  - tabpanel "One Way":
+    - img "train"
+    - text: Flying From Dhaka DAC, Hazrat Shahjalal International Airport
+    - textbox "Leaving From"
+    - text: RECENT SEARCHES
+    - img
+    - text: DAC, Dhaka, Bangladesh
+    - img "train"
+    - text: Flying To Cox's Bazar CXB, Cox's Bazar Airport Journey Date
+    - textbox: Jul 20, 2025
+    - text: Sunday + Add Return Trip
+    - button "Traveler, Class 1 Traveler(s) Economy"
+    - button "Search"
+- heading "Popular Packages" [level=2]
+- 'link "Dual City Adventure: 5 Days, 4 Nights in Kathmandu and Pokhara Nepal 5 Days, 4 Nights 2 People Dual City Adventure: 5 Days, 4 Nights in Kathmandu and Pokhara BDT 25,000 Per person"':
+  - /url: https://www.shohoz.com/holiday-packages/package?documentId=th56vdgbb6ae09jo596qqv8k
+  - 'img "Dual City Adventure: 5 Days, 4 Nights in Kathmandu and Pokhara"'
+  - img
+  - paragraph: Nepal
+  - img
+  - paragraph: 5 Days, 4 Nights
+  - img
+  - paragraph: 2 People
+  - paragraph: "Dual City Adventure: 5 Days, 4 Nights in Kathmandu and Pokhara"
+  - paragraph: BDT 25,000
+  - paragraph: Per person
+- link "4 Days, 3 Nights Paradise Gateway Bali Indonesia 4 Days, 3 Nights 2 People 4 Days, 3 Nights Paradise Gateway Bali BDT 11,500 Per person":
+  - /url: https://www.shohoz.com/holiday-packages/package?documentId=vu48hxye5p3edyf71qgci4jc
+  - img "4 Days, 3 Nights Paradise Gateway Bali"
+  - img
+  - paragraph: Indonesia
+  - img
+  - paragraph: 4 Days, 3 Nights
+  - img
+  - paragraph: 2 People
+  - paragraph: 4 Days, 3 Nights Paradise Gateway Bali
+  - paragraph: BDT 11,500
+  - paragraph: Per person
+- link "5 Days 4 Nights of Urban Adventure Singapore & Kuala Lumpur Malaysia 1 Days, 1 Nights 2 - 8 People 5 Days 4 Nights of Urban Adventure Singapore & Kuala Lumpur BDT 23,500 Per person":
+  - /url: https://www.shohoz.com/holiday-packages/package?documentId=vv7m8r6moof8snv8bwmmjdhs
+  - img "5 Days 4 Nights of Urban Adventure Singapore & Kuala Lumpur"
+  - img
+  - paragraph: Malaysia
+  - img
+  - paragraph: 1 Days, 1 Nights
+  - img
+  - paragraph: 2 - 8 People
+  - paragraph: 5 Days 4 Nights of Urban Adventure Singapore & Kuala Lumpur
+  - paragraph: BDT 23,500
+  - paragraph: Per person
+- link "Explore Singapore 3 Days 2 Nights Adventure Singapore 3 Days, 2 Nights 2 People Explore Singapore 3 Days 2 Nights Adventure BDT 19,500 Per person":
+  - /url: https://www.shohoz.com/holiday-packages/package?documentId=xrhel9hercb0n8hcb5orpmpk
+  - img "Explore Singapore 3 Days 2 Nights Adventure"
+  - img
+  - paragraph: Singapore
+  - img
+  - paragraph: 3 Days, 2 Nights
+  - img
+  - paragraph: 2 People
+  - paragraph: Explore Singapore 3 Days 2 Nights Adventure
+  - paragraph: BDT 19,500
+  - paragraph: Per person
+- link "Bangkok 3 Days 2 Nights Couple Package Thailand 3 Days, 2 Nights 1 - 2 People Bangkok 3 Days 2 Nights Couple Package BDT 10,500 Per person":
+  - /url: https://www.shohoz.com/holiday-packages/package?documentId=i371lpgem5uewnszeb88ult8
+  - img "Bangkok 3 Days 2 Nights Couple Package"
+  - img
+  - paragraph: Thailand
+  - img
+  - paragraph: 3 Days, 2 Nights
+  - img
+  - paragraph: 1 - 2 People
+  - paragraph: Bangkok 3 Days 2 Nights Couple Package
+  - paragraph: BDT 10,500
+  - paragraph: Per person
+- link "SEE ALL PACKAGES ->":
+  - /url: https://www.shohoz.com/holiday-packages/search
+  - button "SEE ALL PACKAGES ->"
+- heading "Popular Destination" [level=2]
+- link "Indonesia Indonesia":
+  - /url: https://www.shohoz.com/holiday-packages/search?destinationId=hm97o8s0bmz90h74c9tmniin
+  - img "Indonesia"
+  - paragraph: Indonesia
+- link "Singapore Singapore":
+  - /url: https://www.shohoz.com/holiday-packages/search?destinationId=y64n47bf103tza24qj92pzy7
+  - img "Singapore"
+  - paragraph: Singapore
+- link "Malaysia Malaysia":
+  - /url: https://www.shohoz.com/holiday-packages/search?destinationId=da43o9hw84so1z2vdkblvkog
+  - img "Malaysia"
+  - paragraph: Malaysia
+- link "Nepal Nepal":
+  - /url: https://www.shohoz.com/holiday-packages/search?destinationId=tjoxm1odl856pxsjbm3ht5ex
+  - img "Nepal"
+  - paragraph: Nepal
+- link "Thailand Thailand":
+  - /url: https://www.shohoz.com/holiday-packages/search?destinationId=htx6c9yffemhffenmai2rp6j
+  - img "Thailand"
+  - paragraph: Thailand
+- img "Shohoz app"
+- heading "Get More Out of Shohoz with ourmobile app" [level=2]
+- img "right-arrow"
+- paragraph: Faster and easier booking
+- img "right-arrow"
+- paragraph: Easy access to your tickets
+- img "right-arrow"
+- paragraph: Get train alerts before every departure
+- img "right-arrow"
+- paragraph: Onboard train with digital tickets
+- link "Google play store":
+  - /url: https://play.google.com/store/apps/details?id=com.shohoz.rides&pli=1
+  - img "Google play store"
+- link "Apple app store":
+  - /url: https://apps.apple.com/us/app/shohoz-app/id1354321445?ls=1
+  - img "Apple app store"
+- heading "All your travel options in one place" [level=2]
+- paragraph: More than 1,000 trusted travel partners across trains, buses, flights, and launch, so that you can focus on the journey.
+- paragraph: 250 Million+
+- paragraph: Tickets Sold
+- paragraph: 3000+
+- paragraph: Routes
+- paragraph: 10 Million+
+- paragraph: Happy Users
+- img "All your travel option"
+- heading "Got Questions ? We’ve Got Answers" [level=1]
+- paragraph: We are always happy to hear from you. If you have any questions, suggestions or opinions, please do not hesitate to reach out to us.
+- link "Contact Us":
+  - /url: https://www.shohoz.com/contact-us
+  - button "Contact Us"
+- text: 1. Can I get air tickets on Shohoz? +
+- separator
+- text: 2. Is there any time frame to buy a ticket? +
+- separator
+- text: 3. How do I pay for my air tickets? +
+- separator
+- text: 4. Can I make changes to my booking? +
+- separator
+- text: 5. What happens if my flight is delayed or canceled? +
+- separator
+- img "iata logo"
+- contentinfo:
+  - img "Logo"
+  - paragraph: Shohoz, owned and operated by Shohoj Limited, is Bangladesh’s largest online ticket destination, which is committed to making your life convenient, easier and smarter.
+  - text: Quick Links
+  - list:
+    - listitem:
+      - link "Home":
+        - /url: https://www.shohoz.com/
+    - listitem:
+      - link "About Us":
+        - /url: https://www.shohoz.com/about-us
+    - listitem:
+      - link "Contact Us":
+        - /url: https://www.shohoz.com/contact-us
+    - listitem:
+      - link "Deals & Offers":
+        - /url: https://www.shohoz.com/deals-and-offers
+    - listitem:
+      - link "Blog":
+        - /url: https://www.shohoz.com/blog
+  - text: Services
+  - list:
+    - listitem:
+      - link "Bus Tickets":
+        - /url: https://www.shohoz.com/bus-tickets
+    - listitem:
+      - link "Air Tickets":
+        - /url: /air-tickets
+    - listitem:
+      - link "Train Tickets":
+        - /url: https://train.shohoz.com/
+    - listitem:
+      - link "Launch Tickets":
+        - /url: https://www.shohoz.com/launch-tickets
+    - listitem:
+      - link "Event Tickets":
+        - /url: https://www.shohoz.com/event-tickets
+    - listitem:
+      - link "Park Tickets":
+        - /url: https://www.shohoz.com/park-tickets
+  - text: Information
+  - list:
+    - listitem:
+      - link "Privacy Policy":
+        - /url: https://www.shohoz.com/privacy-policy
+    - listitem:
+      - link "Term & Condition":
+        - /url: https://www.shohoz.com/terms-of-use
+    - img "iata logo"
+  - text: Copyright © 2015-2024 Shohoz · All Rights Reserved
+  - link "Logo":
+    - /url: "https://www.facebook.com/shohoz "
+    - img "Logo"
+  - link "Logo":
+    - /url: https://www.instagram.com/shohoz.bd
+    - img "Logo"
+  - link "Logo":
+    - /url: https://www.linkedin.com/company/shohoz/
+    - img "Logo"
+- alert
+```
