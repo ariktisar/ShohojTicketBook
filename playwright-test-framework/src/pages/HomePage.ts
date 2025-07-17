@@ -4,7 +4,7 @@ export class HomePage {
   private clickfromlocation = '//level[contains(text(), "Flying From")]';
   private fromInput = '//level[contains(text(), "Flying From")]';
   private toInput = '#to';
-  private frominputfield = '//input[@type="text"]';
+  private frominputfield = '//input[@type="text" and @placeholder="Leaving From"]';
   private departureDateInput = '#departure-date';
   private travelersInput = '#travelers';
   private classSelect = '#class';
